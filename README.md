@@ -1,2 +1,7 @@
 # node-todo-app
-Node Todo List Application Built with Node, Express and EJS
+Simple Todo List Application Built with Node, Express and EJS
+To Test
+
+npm install
+
+npm start
