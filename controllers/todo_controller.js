@@ -19,7 +19,7 @@ module.exports = (app)=> {
         data.push(req.body);
         res.json(data)
     });
-    app.delte('/todo/:item',(req,res)=>{
+    app.delete('/todo/:item',(req,res)=>{
         data = data.filter((todo)=>{
             return todo.item.replace(/ /g, '-') !== req.params.item;
         });
